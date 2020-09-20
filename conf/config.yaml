@@ -1,0 +1,10 @@
+bot-token: ""
+mode: "polling"
+#mode: "webhook"
+webhook-listener:
+  tls: false
+  self-signed: true
+  cert-path: "cert.pem"
+  key-path: "key.pem"
+  bind-address: ":8080"
+  webhook-url: "https://tgbot.limgmk.com/limgmk-test-bot/api"
